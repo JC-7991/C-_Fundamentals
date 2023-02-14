@@ -4,8 +4,8 @@ Multi-threading, deadlocks
 Bitwise manipulations
 */
 
-using namespace std;
 #include <iostream>
+using namespace std;
 
 class Test{
 
