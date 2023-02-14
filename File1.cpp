@@ -3,6 +3,7 @@ C++: abstraction, inheritance, constructors, classes, structs, keywords, method 
 Multi-threading, deadlocks
 Bitwise manipulations
 */
+
 using namespace std;
 #include <iostream>
 
@@ -17,11 +18,12 @@ class Test{
         ~Test(){
             std::cout<<"\n Destructor executed";
         }
+
 };
 
 main(){
     
     Test t;   
     return 0;
-    
+
 }
