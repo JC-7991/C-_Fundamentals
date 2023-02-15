@@ -13,9 +13,13 @@ void func_dummy(int N){
 class thread_obj{
 
   public:
-    void operator()(int n) {
-      for (int i = 0; i < n; i++)
+
+    void operator()(int n){
+
+      for(int i = 0; i < n; i++){
         cout << "Thread 2 :: callable => function object\n";
+      }
+      
     }
 
 };
