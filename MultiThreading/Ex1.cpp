@@ -27,10 +27,12 @@ class thread_obj{
 int main(){
 
   // Define a Lambda Expression
-  auto f = [](int n) {
-    for (int i = 0; i < n; i++)
-    cout << "Thread 3 :: callable => lambda expression\n";
-    };
+  auto f = [](int n){
+    for(int i = 0; i < n; i++){
+      cout << "Thread 3 :: callable => lambda expression\n";
+    }
+  };
+  
   //launch thread using function pointer as callable
   thread th1(func_dummy, 2);
     
@@ -49,5 +51,5 @@ int main(){
   th3.join();
     
   return 0;
-  
+
 }
