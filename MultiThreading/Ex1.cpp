@@ -3,12 +3,11 @@
 using namespace std;
  
 // function to be used in callable
-void func_dummy(int N)
- {
-   for (int i = 0; i < N; i++) {
-   cout << "Thread 1 :: callable => function pointer\n";
-   }
- }
+void func_dummy(int N){
+  for(int i = 0; i < N; i++){
+    cout << "Thread 1 :: callable => function pointer\n";
+  }
+}
   
 // A callable object
 class thread_obj {
