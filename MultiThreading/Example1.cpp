@@ -4,9 +4,11 @@ using namespace std;
  
 //Function to be used in callable
 void func_dummy(int N){
+
   for(int i = 0; i < N; i++){
     cout << "Thread 1 :: callable => function pointer\n";
   }
+
 }
   
 //A callable object
@@ -28,9 +30,11 @@ int main(){
 
   // Define a Lambda Expression
   auto f = [](int n){
+
     for(int i = 0; i < n; i++){
       cout << "Thread 3 :: callable => lambda expression\n";
     }
+    
   };
 
   //launch thread using function pointer as callable
