@@ -18,19 +18,21 @@ class B: public A{
 };
 
 class C: public B{
+
     public:
-    C(){
-        std::cout << "C\n";
-    }
+        C(){
+            std::cout << "C\n";
+        }
 
 };
 
 class D: public C{
+
     public:
-    D(){
-        std::cout << "D\n";
-    }
-    
+        D(){
+            std::cout << "D\n";
+        }
+
 };
 
 int main(){
