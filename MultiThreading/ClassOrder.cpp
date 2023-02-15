@@ -14,25 +14,23 @@ class B: public A{
     B(){
         std::cout << "B\n";
     }
-    
+
 };
 
-class C: public B
-{
-public:
-    C()
-    {
+class C: public B{
+    public:
+    C(){
         std::cout << "C\n";
     }
+
 };
 
-class D: public C
-{
-public:
-    D()
-    {
+class D: public C{
+    public:
+    D(){
         std::cout << "D\n";
     }
+    
 };
 
 int main(){
