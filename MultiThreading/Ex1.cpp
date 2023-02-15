@@ -32,7 +32,7 @@ int main(){
       cout << "Thread 3 :: callable => lambda expression\n";
     }
   };
-  
+
   //launch thread using function pointer as callable
   thread th1(func_dummy, 2);
     
@@ -46,7 +46,6 @@ int main(){
   th1.join();
   // Wait for thread t2 to finish
   th2.join();
-    
   // Wait for thread t3 to finish
   th3.join();
     
