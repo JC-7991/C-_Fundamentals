@@ -10,12 +10,14 @@ void func_dummy(int N){
 }
   
 //A callable object
-class thread_obj {
- public:
-   void operator()(int n) {
-       for (int i = 0; i < n; i++)
-           cout << "Thread 2 :: callable => function object\n";
-   }
+class thread_obj{
+
+  public:
+    void operator()(int n) {
+      for (int i = 0; i < n; i++)
+        cout << "Thread 2 :: callable => function object\n";
+    }
+
 };
   
 int main()
