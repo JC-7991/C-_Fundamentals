@@ -36,3 +36,17 @@ public:
     }
 };
 
+int main()
+{
+    std::cout << "Constructing A: \n";
+    A a;
+
+    std::cout << "Constructing B: \n";
+    B b;
+
+    std::cout << "Constructing C: \n";
+    C c;
+
+    std::cout << "Constructing D: \n";
+    D d;
+}
