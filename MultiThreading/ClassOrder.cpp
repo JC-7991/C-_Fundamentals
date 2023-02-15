@@ -36,8 +36,8 @@ public:
     }
 };
 
-int main()
-{
+int main(){
+
     std::cout << "Constructing A: \n";
     A a;
 
@@ -49,4 +49,5 @@ int main()
 
     std::cout << "Constructing D: \n";
     D d;
+    
 }
