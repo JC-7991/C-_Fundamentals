@@ -1,21 +1,20 @@
 #include <iostream>
 
-class A
-{
-public:
-    A()
-    {
+class A{
+
+    public:
+    A(){
         std::cout << "A\n";
     }
+
 };
 
-class B: public A
-{
-public:
-    B()
-    {
+class B: public A{
+    public:
+    B(){
         std::cout << "B\n";
     }
+    
 };
 
 class C: public B
@@ -49,5 +48,5 @@ int main(){
 
     std::cout << "Constructing D: \n";
     D d;
-    
+
 }
