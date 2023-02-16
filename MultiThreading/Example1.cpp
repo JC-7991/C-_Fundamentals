@@ -48,9 +48,10 @@ int main(){
     
   // Wait for thread t1 to finish
   th1.join();
-  
+
   // Wait for thread t2 to finish
   th2.join();
+  
   // Wait for thread t3 to finish
   th3.join();
     
