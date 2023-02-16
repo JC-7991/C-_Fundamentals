@@ -1,18 +1,15 @@
-#include <iostream> // for std::cout
+#include <iostream>
 
-void doB()
-{
+void doB(){
     std::cout << "In doB()\n";
 }
 
+void doA(){
 
-void doA()
-{
     std::cout << "Starting doA()\n";
-
     doB();
-
     std::cout << "Ending doA()\n";
+    
 }
 
 // Definition of function main()
