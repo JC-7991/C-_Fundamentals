@@ -9,8 +9,8 @@ void doA(){
     doB();
 }
 
-int main()
-{
+int main(){
+    
     std::cout << "Starting main()\n";
 
     doA();
