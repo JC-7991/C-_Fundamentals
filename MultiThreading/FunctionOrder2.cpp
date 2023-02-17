@@ -6,11 +6,9 @@ void doB(){
 
 void doA(){
     std::cout << "In doA()\n";
-
     doB();
 }
 
-// Definition of function main()
 int main()
 {
     std::cout << "Starting main()\n";
