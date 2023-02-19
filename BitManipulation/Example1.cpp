@@ -3,7 +3,7 @@
 
 int main(){
 
-    std::bitset<8> bits{ 0b0000'0101 }; // We need 8 bits, start with bit pattern 0000 0101.
+    std::bitset <8> bits{ 0b0000'0101 }; // We need 8 bits, start with bit pattern 0000 0101.
 
     bits.set(3); // Set bit position 3 to 1 (now we have 0000 1101).
     bits.flip(4); // Flip bit 4 (now we have 0001 1101).
