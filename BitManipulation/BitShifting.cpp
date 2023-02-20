@@ -2,7 +2,7 @@
 #include <iostream>
 
 int main(){
-    
+
     std::bitset<4> x { 0b1100 };
 
     std::cout << x << '\n';
@@ -10,4 +10,5 @@ int main(){
     std::cout << (x << 1) << '\n'; // shift left by 1, yielding 1000
 
     return 0;
+    
 }
