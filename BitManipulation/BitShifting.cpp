@@ -1,8 +1,8 @@
 #include <bitset>
 #include <iostream>
 
-int main()
-{
+int main(){
+    
     std::bitset<4> x { 0b1100 };
 
     std::cout << x << '\n';
