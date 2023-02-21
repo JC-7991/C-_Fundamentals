@@ -28,11 +28,11 @@ class PaintCost{
         }
 };
 
-class Rectangle: public Shape, public PaintCost {
-   public:
-      int getArea() {
-         return (width * height); 
-      }
+class Rectangle: public Shape, public PaintCost{
+    public:
+        int getArea(){
+            return (width * height); 
+        }
 };
 
 int main(void){
