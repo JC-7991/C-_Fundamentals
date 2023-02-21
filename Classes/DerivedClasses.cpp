@@ -17,15 +17,14 @@ class Shape{
     protected:
         int width;
         int height;
-        
+
 };
 
-// Derived class
-class Rectangle: public Shape {
-   public:
-      int getArea() { 
-         return (width * height); 
-      }
+class Rectangle: public Shape{
+    public:
+        int getArea(){ 
+            return (width * height); 
+        }
 };
 
 int main(void) {
