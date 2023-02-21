@@ -26,7 +26,7 @@ int main(void){
 
    pd.print(5);
    pd.print(500.263);
-   pd.print("Hello C++");
+   pd.print("Hello World!");
  
    return 0;
 
