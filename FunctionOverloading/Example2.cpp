@@ -1,14 +1,18 @@
 #include <iostream>
 using namespace std;
 
-class Box {
-   public:
-      double getVolume(void) {
-         return length * breadth * height;
-      }
-      void setLength( double len ) {
-         length = len;
-      }
+class Box{
+
+    public:
+
+        double getVolume(void){
+            return length * breadth * height;
+        }
+
+        void setLength(double len){
+            length = len;
+        }
+
       void setBreadth( double bre ) {
          breadth = bre;
       }
