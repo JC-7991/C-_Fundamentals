@@ -21,14 +21,13 @@ class Shape{
 
 };
 
-class PaintCost {
-   public:
-      int getCost(int area) {
-         return area * 70;
-      }
+class PaintCost{
+    public:
+        int getCost(int area){
+            return area * 70;
+        }
 };
 
-// Derived class
 class Rectangle: public Shape, public PaintCost {
    public:
       int getArea() {
