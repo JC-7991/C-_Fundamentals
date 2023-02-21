@@ -19,8 +19,8 @@ int printAndDecrementBit(int x, int pow)
     return x;
 }
 
-int main()
-{
+int main(){
+    
     std::cout << "Enter an integer between 0 and 255: ";
     int x{};
     std::cin >> x;
