@@ -4,16 +4,20 @@ using namespace std;
  
 class printData{
 
-   public:
-      void print(int i) {
-        cout << "Printing int: " << i << endl;
-      }
-      void print(double  f) {
-        cout << "Printing float: " << f << endl;
-      }
-      void print(string c) {
-        cout << "Printing character: " << c << endl;
-      }
+    public:
+
+        void print(int i) {
+            cout << "Printing int: " << i << endl;
+        }
+
+        void print(double  f) {
+            cout << "Printing float: " << f << endl;
+        }
+
+        void print(string c) {
+            cout << "Printing character: " << c << endl;
+        }
+
 };
 
 int main(void){
@@ -25,5 +29,5 @@ int main(void){
    pd.print("Hello C++");
  
    return 0;
-   
+
 }
