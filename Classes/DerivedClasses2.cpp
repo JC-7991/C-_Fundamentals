@@ -2,22 +2,25 @@
  
 using namespace std;
 
-// Base class Shape
-class Shape {
-   public:
-      void setWidth(int w) {
-         width = w;
-      }
-      void setHeight(int h) {
-         height = h;
-      }
+class Shape{
+
+    public:
+
+        void setWidth(int w){
+            width = w;
+        }
+
+        void setHeight(int h){
+            height = h;
+        }
       
-   protected:
-      int width;
-      int height;
+    protected:
+
+        int width;
+        int height;
+
 };
 
-// Base class PaintCost
 class PaintCost {
    public:
       int getCost(int area) {
@@ -47,5 +50,5 @@ int main(void){
    cout << "Total paint cost: $" << Rect.getCost(area) << endl;
 
    return 0;
-   
+
 }
