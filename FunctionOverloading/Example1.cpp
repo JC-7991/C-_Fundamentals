@@ -16,7 +16,8 @@ class printData{
       }
 };
 
-int main(void) {
+int main(void){
+
    printData pd;
 
    pd.print(5);
@@ -24,4 +25,5 @@ int main(void) {
    pd.print("Hello C++");
  
    return 0;
+   
 }
