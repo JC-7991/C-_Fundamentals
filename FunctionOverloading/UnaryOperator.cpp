@@ -8,7 +8,7 @@ class Distance{
         int feet;
         int inches;
       
-   public:
+    public:
 
         Distance(){
             feet = 0;
@@ -21,15 +21,15 @@ class Distance{
         }
       
         void displayDistance(){
-            cout << "F: " << feet << " I:" << inches <<endl;
+            cout << "F: " << feet << " I:" << inches << endl;
         }
-      
-      // overloaded minus (-) operator
-      Distance operator- () {
-         feet = -feet;
-         inches = -inches;
-         return Distance(feet, inches);
-      }
+
+        Distance operator-(){
+            feet = -feet;
+            inches = -inches;
+            return Distance(feet, inches);
+        }
+
 };
 
 int main() {
