@@ -19,10 +19,9 @@ class Distance{
             inches = i;
         }
       
-      // method to display distance
-      void displayDistance() {
-         cout << "F: " << feet << " I:" << inches <<endl;
-      }
+        void displayDistance(){
+            cout << "F: " << feet << " I:" << inches << endl;
+        }
       
       // overloaded minus (-) operator
       Distance operator- () {
