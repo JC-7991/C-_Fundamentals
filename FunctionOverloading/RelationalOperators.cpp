@@ -23,12 +23,11 @@ class Distance{
             cout << "F: " << feet << " I:" << inches << endl;
         }
       
-      // overloaded minus (-) operator
-      Distance operator- () {
-         feet = -feet;
-         inches = -inches;
-         return Distance(feet, inches);
-      }
+        Distance operator-(){
+            feet = -feet;
+            inches = -inches;
+            return Distance(feet, inches);
+        }
       
       // overloaded < operator
       bool operator <(const Distance& d) {
