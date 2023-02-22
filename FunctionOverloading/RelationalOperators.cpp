@@ -35,12 +35,12 @@ class Distance{
                 return true;
             }
 
-            if(feet == d.feet && inches < d.inches) {
+            if(feet == d.feet && inches < d.inches){
                 return true;
             }
          
             return false;
-            
+
         }
 
 };
