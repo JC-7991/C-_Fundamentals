@@ -4,20 +4,21 @@ using namespace std;
 class Distance{
 
     private:
+    
         int feet;
         int inches;
       
    public:
 
-    Distance(){
-        feet = 0;
-        inches = 0;
-    }
+        Distance(){
+            feet = 0;
+            inches = 0;
+        }
 
-      Distance(int f, int i) {
-         feet = f;
-         inches = i;
-      }
+        Distance(int f, int i){
+            feet = f;
+            inches = i;
+        }
       
       // method to display distance
       void displayDistance() {
