@@ -1,14 +1,15 @@
 #include <iostream>
 using namespace std;
  
-class Distance {
-   private:
-      int feet;             // 0 to infinite
-      int inches;           // 0 to 12
+class Distance{
+
+    private:
+        int feet;
+        int inches;
       
    public:
-      // required constructors
-      Distance() {
+
+    Distance(){
          feet = 0;
          inches = 0;
       }
