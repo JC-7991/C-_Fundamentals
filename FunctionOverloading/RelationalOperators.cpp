@@ -45,14 +45,18 @@ class Distance{
 
 };
 
-int main() {
-   Distance D1(11, 10), D2(5, 11);
+int main(){
+
+    Distance D1(11, 10), D2(5, 11);
  
-   if( D1 < D2 ) {
-      cout << "D1 is less than D2 " << endl;
-   } else {
-      cout << "D2 is less than D1 " << endl;
-   }
+    if(D1 < D2){
+        cout << "D1 is less than D2 " << endl;
+    }
+    
+    else{
+        cout << "D2 is less than D1 " << endl;
+    }
    
    return 0;
+
 }
