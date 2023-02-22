@@ -29,17 +29,20 @@ class Distance{
             return Distance(feet, inches);
         }
       
-      // overloaded < operator
-      bool operator <(const Distance& d) {
-         if(feet < d.feet) {
-            return true;
-         }
-         if(feet == d.feet && inches < d.inches) {
-            return true;
-         }
+        bool operator<(const Distance& d){
+
+            if(feet < d.feet){
+                return true;
+            }
+
+            if(feet == d.feet && inches < d.inches) {
+                return true;
+            }
          
-         return false;
-      }
+            return false;
+            
+        }
+
 };
 
 int main() {
