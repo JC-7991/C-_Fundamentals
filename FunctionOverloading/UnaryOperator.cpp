@@ -10,9 +10,10 @@ class Distance{
    public:
 
     Distance(){
-         feet = 0;
-         inches = 0;
-      }
+        feet = 0;
+        inches = 0;
+    }
+
       Distance(int f, int i) {
          feet = f;
          inches = i;
