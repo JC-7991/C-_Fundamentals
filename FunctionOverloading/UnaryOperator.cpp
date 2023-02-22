@@ -32,14 +32,15 @@ class Distance{
 
 };
 
-int main() {
+int main(){
+
    Distance D1(11, 10), D2(-5, 11);
  
-   -D1;                     // apply negation
-   D1.displayDistance();    // display D1
-
-   -D2;                     // apply negation
-   D2.displayDistance();    // display D2
+   -D1;
+   D1.displayDistance();
+   -D2;
+   D2.displayDistance();
 
    return 0;
+   
 }
