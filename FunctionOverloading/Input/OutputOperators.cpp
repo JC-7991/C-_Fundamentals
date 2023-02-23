@@ -13,15 +13,16 @@ class Distance{
             feet = 0;
             inches = 0;
         }
-        
-      Distance(int f, int i) {
-         feet = f;
-         inches = i;
-      }
-      friend ostream &operator<<( ostream &output, const Distance &D ) { 
-         output << "F : " << D.feet << " I : " << D.inches;
-         return output;            
-      }
+
+        Distance(int f, int i){
+            feet = f;
+            inches = i;
+        }
+
+        friend ostream &operator<<(ostream &output, const Distance &D){ 
+            output << "F : " << D.feet << " I : " << D.inches;
+            return output;            
+        }
 
       friend istream &operator>>( istream  &input, Distance &D ) { 
          input >> D.feet >> D.inches;
