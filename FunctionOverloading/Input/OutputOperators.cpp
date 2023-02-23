@@ -24,10 +24,11 @@ class Distance{
             return output;            
         }
 
-      friend istream &operator>>( istream  &input, Distance &D ) { 
-         input >> D.feet >> D.inches;
-         return input;            
-      }
+        friend istream &operator>>(istream &input, Distance &D){ 
+            input >> D.feet >> D.inches;
+            return input;            
+        }
+        
 };
 
 int main() {
