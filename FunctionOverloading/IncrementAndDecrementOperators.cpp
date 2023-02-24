@@ -7,8 +7,8 @@ class Time{
         int hours;
         int minutes;
       
-   public:
-      // required constructors
+    public:
+    
       Time() {
          hours = 0;
          minutes = 0;
