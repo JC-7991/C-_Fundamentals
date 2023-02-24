@@ -8,15 +8,16 @@ class Time{
         int minutes;
       
     public:
-    
-      Time() {
-         hours = 0;
-         minutes = 0;
-      }
-      Time(int h, int m) {
-         hours = h;
-         minutes = m;
-      }
+
+        Time(){
+            hours = 0;
+            minutes = 0;
+        }
+
+        Time(int h, int m){
+            hours = h;
+            minutes = m;
+        }
       
       // method to display time
       void displayTime() {
