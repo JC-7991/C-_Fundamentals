@@ -1,10 +1,11 @@
 #include <iostream>
 using namespace std;
  
-class Time {
-   private:
-      int hours;             // 0 to 23
-      int minutes;           // 0 to 59
+class Time{
+
+    private:
+        int hours;
+        int minutes;
       
    public:
       // required constructors
