@@ -54,16 +54,18 @@ class Time{
 
 int main(){
 
-   Time T1(11, 59), T2(10,40);
+   Time T1(11, 59), T2(10, 40);
  
-   ++T1;                    // increment T1
-   T1.displayTime();        // display T1
-   ++T1;                    // increment T1 again
-   T1.displayTime();        // display T1
+   ++T1;
+   T1.displayTime();
+   ++T1;
+   T1.displayTime();
  
-   T2++;                    // increment T2
-   T2.displayTime();        // display T2
-   T2++;                    // increment T2 again
-   T2.displayTime();        // display T2
+   T2++;
+   T2.displayTime();
+   T2++;
+   T2.displayTime();
+
    return 0;
+
 }
