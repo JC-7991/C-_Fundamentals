@@ -18,11 +18,11 @@ class Distance{
             feet = f;
             inches = i;
         }
-        
-      void operator = (const Distance &D ) { 
-         feet = D.feet;
-         inches = D.inches;
-      }
+
+        void operator=(const Distance &D){ 
+            feet = D.feet;
+            inches = D.inches;
+        }
       
       // method to display distance
       void displayDistance() {
