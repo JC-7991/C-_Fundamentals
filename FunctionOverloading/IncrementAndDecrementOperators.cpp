@@ -19,11 +19,10 @@ class Time{
             minutes = m;
          }
       
-         void displayTime() {
+         void displayTime(){
             cout << "H: " << hours << " M:" << minutes <<endl;
          }
       
-      // overloaded prefix ++ operator
       Time operator++ () {
          ++minutes;          // increment this object
          if(minutes >= 60) {
