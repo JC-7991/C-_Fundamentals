@@ -9,19 +9,19 @@ class Time{
       
     public:
 
-        Time(){
+         Time(){
             hours = 0;
             minutes = 0;
-        }
+         }
 
-        Time(int h, int m){
+         Time(int h, int m){
             hours = h;
             minutes = m;
-        }
+         }
       
-      void displayTime() {
-         cout << "H: " << hours << " M:" << minutes <<endl;
-      }
+         void displayTime() {
+            cout << "H: " << hours << " M:" << minutes <<endl;
+         }
       
       // overloaded prefix ++ operator
       Time operator++ () {
