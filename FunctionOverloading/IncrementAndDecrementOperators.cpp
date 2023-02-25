@@ -38,15 +38,13 @@ class Time{
       
          Time operator++(int){
       
-         Time T(hours, minutes);
+            Time T(hours, minutes);
+            ++minutes;                    
          
-         // increment this object
-         ++minutes;                    
-         
-         if(minutes >= 60) {
-            ++hours;
-            minutes -= 60;
-         }
+            if(minutes >= 60){
+               ++hours;
+               minutes -= 60;
+            }
          
          // return old original value
          return T; 
