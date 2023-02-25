@@ -46,9 +46,10 @@ class Time{
                minutes -= 60;
             }
 
-            return T; 
+            return T;
+            
          }
-         
+
 };
 
 int main() {
