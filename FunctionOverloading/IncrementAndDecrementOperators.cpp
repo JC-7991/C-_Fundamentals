@@ -19,7 +19,6 @@ class Time{
             minutes = m;
         }
       
-      // method to display time
       void displayTime() {
          cout << "H: " << hours << " M:" << minutes <<endl;
       }
