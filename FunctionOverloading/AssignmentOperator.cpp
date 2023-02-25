@@ -30,18 +30,20 @@ class Distance{
 
 };
 
-int main() {
+int main(){
+
    Distance D1(11, 10), D2(5, 11);
 
    cout << "First Distance : "; 
    D1.displayDistance();
+
    cout << "Second Distance :"; 
    D2.displayDistance();
 
-   // use assignment operator
    D1 = D2;
    cout << "First Distance :"; 
    D1.displayDistance();
 
    return 0;
+   
 }
