@@ -24,10 +24,10 @@ class Distance{
             inches = D.inches;
         }
       
-      // method to display distance
-      void displayDistance() {
-         cout << "F: " << feet <<  " I:" <<  inches << endl;
-      }
+        void displayDistance(){
+            cout << "F: " << feet <<  " I:" <<  inches << endl;
+        }
+
 };
 
 int main() {
