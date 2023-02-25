@@ -52,7 +52,8 @@ class Time{
 
 };
 
-int main() {
+int main(){
+
    Time T1(11, 59), T2(10,40);
  
    ++T1;                    // increment T1
