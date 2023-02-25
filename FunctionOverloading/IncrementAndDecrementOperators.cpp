@@ -33,13 +33,11 @@ class Time{
             }
 
             return Time(hours, minutes);
-            
+
          }
       
-      // overloaded postfix ++ operator
-      Time operator++( int ) {
+         Time operator++(int){
       
-         // save the orignal value
          Time T(hours, minutes);
          
          // increment this object
