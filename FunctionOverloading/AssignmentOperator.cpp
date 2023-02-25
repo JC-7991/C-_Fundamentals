@@ -9,14 +9,16 @@ class Distance{
       
     public:
 
-      Distance() {
-         feet = 0;
-         inches = 0;
-      }
-      Distance(int f, int i) {
-         feet = f;
-         inches = i;
-      }
+        Distance(){
+            feet = 0;
+            inches = 0;
+        }
+
+        Distance(int f, int i){
+            feet = f;
+            inches = i;
+        }
+        
       void operator = (const Distance &D ) { 
          feet = D.feet;
          inches = D.inches;
