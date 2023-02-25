@@ -23,14 +23,18 @@ class Time{
             cout << "H: " << hours << " M:" << minutes <<endl;
          }
       
-      Time operator++ () {
-         ++minutes;          // increment this object
-         if(minutes >= 60) {
-            ++hours;
-            minutes -= 60;
+         Time operator++(){
+
+            ++minutes;
+
+            if(minutes >= 60) {
+               ++hours;
+               minutes -= 60;
+            }
+
+            return Time(hours, minutes);
+            
          }
-         return Time(hours, minutes);
-      }
       
       // overloaded postfix ++ operator
       Time operator++( int ) {
