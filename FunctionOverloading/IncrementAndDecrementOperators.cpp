@@ -45,10 +45,10 @@ class Time{
                ++hours;
                minutes -= 60;
             }
+
+            return T; 
+         }
          
-         // return old original value
-         return T; 
-      }
 };
 
 int main() {
