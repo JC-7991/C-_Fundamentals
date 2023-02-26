@@ -19,7 +19,7 @@ class Distance{
             inches = i;
         }
 
-      Distance operator()(int a, int b, int c) {
+        Distance operator()(int a, int b, int c) {
          Distance D;
          
          // just put random calculation
