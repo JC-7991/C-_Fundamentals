@@ -18,8 +18,7 @@ class Distance{
             feet = f;
             inches = i;
         }
-      
-      // overload function call
+
       Distance operator()(int a, int b, int c) {
          Distance D;
          
