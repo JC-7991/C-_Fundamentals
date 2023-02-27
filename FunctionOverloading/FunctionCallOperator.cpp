@@ -28,10 +28,10 @@ class Distance{
 
         }
       
-        void displayDistance() {
+        void displayDistance(){
             cout << "F: " << feet << " I:" << inches << endl;
         }
-        
+
 };
 
 int main() {
