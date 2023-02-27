@@ -34,7 +34,8 @@ class Distance{
 
 };
 
-int main() {
+int main(){
+    
    Distance D1(11, 10), D2;
 
    cout << "First Distance : "; 
