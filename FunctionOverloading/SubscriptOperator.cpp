@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 const int SIZE = 10;
 
 class safeArray{
@@ -15,10 +16,11 @@ class safeArray{
             for(i = 0; i < SIZE; i++){
                 arr[i] = i;
             }
-            
+
         }
       
-      int &operator[](int i) {
+        int &operator[](int i){
+
          if( i > SIZE ) {
             cout << "Index out of bounds" <<endl; 
             // return first element.
@@ -26,7 +28,8 @@ class safeArray{
          }
          
          return arr[i];
-      }
+        }
+        
 };
 
 int main() {
