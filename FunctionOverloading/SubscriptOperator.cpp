@@ -21,13 +21,14 @@ class safeArray{
       
         int &operator[](int i){
 
-         if( i > SIZE ) {
-            cout << "Index out of bounds" <<endl; 
-            return arr[0];
-         }
+            if(i > SIZE){
+                cout << "Index out of bounds" << endl; 
+                return arr[0];
+            }
          
-         return arr[i];
+            return arr[i];
         }
+
 };
 
 int main(){
@@ -39,5 +40,5 @@ int main(){
    cout << "Value of A[12] : " << A[12] << endl;
 
    return 0;
-   
+
 }
