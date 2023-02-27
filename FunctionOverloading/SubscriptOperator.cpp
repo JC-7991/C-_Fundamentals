@@ -4,16 +4,17 @@ const int SIZE = 10;
 
 class safeArray{
 
-   private:
-      int arr[SIZE];
+    private:
+        int arr[SIZE];
       
-   public:
-      safeArray() {
-         register int i;
-         for(i = 0; i < SIZE; i++) {
-           arr[i] = i;
-         }
-      }
+    public:
+    
+        safeArray(){
+            register int i;
+            for(i = 0; i < SIZE; i++) {
+                arr[i] = i;
+            }
+        }
       
       int &operator[](int i) {
          if( i > SIZE ) {
