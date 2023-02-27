@@ -8,12 +8,14 @@ class safeArray{
         int arr[SIZE];
       
     public:
-    
+
         safeArray(){
+
             register int i;
-            for(i = 0; i < SIZE; i++) {
+            for(i = 0; i < SIZE; i++){
                 arr[i] = i;
             }
+            
         }
       
       int &operator[](int i) {
