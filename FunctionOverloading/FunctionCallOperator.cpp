@@ -28,7 +28,6 @@ class Distance{
 
         }
       
-      // method to display distance
       void displayDistance() {
          cout << "F: " << feet << " I:" << inches << endl;
       }   
