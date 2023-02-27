@@ -41,10 +41,10 @@ int main(){
    cout << "First Distance : "; 
    D1.displayDistance();
 
-   D2 = D1(10, 10, 10); // invoke operator()
+   D2 = D1(10, 10, 10);
    cout << "Second Distance :"; 
    D2.displayDistance();
 
    return 0;
-   
+
 }
