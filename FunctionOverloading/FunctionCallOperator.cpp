@@ -35,7 +35,7 @@ class Distance{
 };
 
 int main(){
-    
+
    Distance D1(11, 10), D2;
 
    cout << "First Distance : "; 
@@ -46,4 +46,5 @@ int main(){
    D2.displayDistance();
 
    return 0;
+   
 }
