@@ -23,13 +23,11 @@ class safeArray{
 
          if( i > SIZE ) {
             cout << "Index out of bounds" <<endl; 
-            // return first element.
             return arr[0];
          }
          
          return arr[i];
         }
-        
 };
 
 int main() {
