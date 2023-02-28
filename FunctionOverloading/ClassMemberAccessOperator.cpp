@@ -26,11 +26,13 @@ class ObjContainer{
    vector<Obj*> a;
 
    public:
-      void add(Obj* obj) { 
-         a.push_back(obj);  // call vector's standard method.
-      }
-      friend class SmartPointer;
-      
+
+        void add(Obj* obj){ 
+            a.push_back(obj);
+        }
+
+        friend class SmartPointer;
+
 };
 
 // implement smart pointer to access member of Obj class.
