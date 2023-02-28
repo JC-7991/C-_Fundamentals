@@ -35,13 +35,14 @@ class ObjContainer{
 
 };
 
-// implement smart pointer to access member of Obj class.
-class SmartPointer {
+class SmartPointer{
+
    ObjContainer oc;
    int index;
    
    public:
-      SmartPointer(ObjContainer& objc) { 
+      
+      SmartPointer(ObjContainer& objc){ 
          oc = objc;
          index = 0;
       }
