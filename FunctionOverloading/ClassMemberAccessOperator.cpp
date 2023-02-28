@@ -21,7 +21,8 @@ class Obj{
 int Obj::i = 10;
 int Obj::j = 12;
 
-class ObjContainer {
+class ObjContainer{
+
    vector<Obj*> a;
 
    public:
@@ -29,6 +30,7 @@ class ObjContainer {
          a.push_back(obj);  // call vector's standard method.
       }
       friend class SmartPointer;
+      
 };
 
 // implement smart pointer to access member of Obj class.
