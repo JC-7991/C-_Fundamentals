@@ -11,14 +11,13 @@ class Obj{
         void f() const{
             cout << i++ << endl;
         }
-        
+
         void g() const{
             cout << j++ << endl;
         }
 
 };
 
-// Static member definitions:
 int Obj::i = 10;
 int Obj::j = 12;
 
