@@ -2,13 +2,18 @@
 #include <vector>
 using namespace std;
 
-// Consider an actual class.
-class Obj {
-   static int i, j;
+class Obj{
+
+    static int i, j;
    
-public:
-   void f() const { cout << i++ << endl; }
-   void g() const { cout << j++ << endl; }
+    public:
+        void f() const{
+            cout << i++ << endl;
+        }
+        void g() const{
+            cout << j++ << endl;
+        }
+
 };
 
 // Static member definitions:
