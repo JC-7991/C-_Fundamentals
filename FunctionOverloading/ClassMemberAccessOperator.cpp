@@ -7,9 +7,11 @@ class Obj{
     static int i, j;
    
     public:
+
         void f() const{
             cout << i++ << endl;
         }
+        
         void g() const{
             cout << j++ << endl;
         }
