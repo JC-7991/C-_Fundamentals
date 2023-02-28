@@ -21,7 +21,6 @@ class Obj{
 int Obj::i = 10;
 int Obj::j = 12;
 
-// Implement a container for the above class
 class ObjContainer {
    vector<Obj*> a;
 
