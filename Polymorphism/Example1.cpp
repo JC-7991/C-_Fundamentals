@@ -37,7 +37,7 @@ class Triangle: public Shape{
 
    public:
 
-      Triangle( int a = 0, int b = 0): Shape(a, b){ }
+      Triangle(int a = 0, int b = 0): Shape(a, b){ }
 
       int area(){
          cout << "Triangle class area: " << (width * height) / 2 << endl;
