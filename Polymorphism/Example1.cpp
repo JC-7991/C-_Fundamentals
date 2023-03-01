@@ -27,7 +27,7 @@ class Rectangle: public Shape{
       Rectangle(int a = 0, int b = 0): Shape(a, b){ }
 
       int area(){
-         cout << "Rectangle class area :" << width * height << endl;
+         cout << "Rectangle class area: " << width * height << endl;
          return (width * height);
       }
 
@@ -40,7 +40,7 @@ class Triangle: public Shape{
       Triangle( int a = 0, int b = 0): Shape(a, b){ }
 
       int area(){
-         cout << "Triangle class area :" << (width * height) / 2 << endl;
+         cout << "Triangle class area: " << (width * height) / 2 << endl;
          return (width * height / 2);
       }
 
@@ -59,5 +59,5 @@ int main(){
    shape->area();
 
    return 0;
-   
+
 }
