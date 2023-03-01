@@ -20,14 +20,16 @@ class Shape{
 
 };
 
-class Rectangle: public Shape {
-   public:
-      Rectangle( int a = 0, int b = 0):Shape(a, b) { }
+class Rectangle: public Shape{
 
-      int area () {
+   public:
+      Rectangle(int a = 0, int b = 0): Shape(a, b){ }
+
+      int area(){
          cout << "Rectangle class area :" << width * height << endl;
          return (width * height);
       }
+
 };
 
 class Triangle: public Shape {
