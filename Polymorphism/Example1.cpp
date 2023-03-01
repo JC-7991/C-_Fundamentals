@@ -1,20 +1,25 @@
 #include <iostream>
 using namespace std;
 
-class Shape {
+class Shape{
+
    protected:
       int width, height;
 
    public:
-      Shape( int a = 0, int b = 0){
+
+      Shape(int a = 0, int b = 0){
          width = a;
          height = b;
       }
-      virtual int area() {
+
+      virtual int area(){
          cout << "Parent class area :" << width * height << endl;
          return width * height;
       }
+
 };
+
 class Rectangle: public Shape {
    public:
       Rectangle( int a = 0, int b = 0):Shape(a, b) { }
