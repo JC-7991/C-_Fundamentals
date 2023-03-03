@@ -5,20 +5,21 @@ class Adder{
 
    public:
 
-      Adder(int i = 0) {
+      Adder(int i = 0){
          total = i;
       }
       
-      void addNum(int number) {
+      void addNum(int number){
          total += number;
       }
       
-      int getTotal() {
+      int getTotal(){
          return total;
       };
       
    private:
       int total;
+
 };
 
 int main() {
