@@ -22,7 +22,8 @@ class Adder{
 
 };
 
-int main() {
+int main(){
+
    Adder a;
    
    a.addNum(10);
@@ -31,4 +32,5 @@ int main() {
 
    cout << "Total " << a.getTotal() <<endl;
    return 0;
+   
 }
