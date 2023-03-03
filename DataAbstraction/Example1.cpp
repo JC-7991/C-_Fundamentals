@@ -9,7 +9,6 @@ class Adder{
          total = i;
       }
       
-      // interface to outside world
       void addNum(int number) {
          total += number;
       }
