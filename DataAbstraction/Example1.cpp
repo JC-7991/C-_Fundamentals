@@ -13,7 +13,6 @@ class Adder{
          total += number;
       }
       
-      // interface to outside world
       int getTotal() {
          return total;
       };
