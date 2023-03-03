@@ -18,7 +18,6 @@ class Adder{
       };
       
    private:
-      // hidden data from outside world
       int total;
 };
 
