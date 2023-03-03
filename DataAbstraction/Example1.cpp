@@ -30,7 +30,7 @@ int main(){
    a.addNum(20);
    a.addNum(30);
 
-   cout << "Total " << a.getTotal() <<endl;
+   cout << "Total " << a.getTotal() << endl;
    return 0;
-   
+
 }
