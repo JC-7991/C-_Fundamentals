@@ -3,7 +3,7 @@ using namespace std;
 
 class Adder {
    public:
-      // constructor
+
       Adder(int i = 0) {
          total = i;
       }
@@ -30,6 +30,6 @@ int main() {
    a.addNum(20);
    a.addNum(30);
 
-   cout << "Total " << a.getTotal() <<endl;
+   cout << "Total " << a.getTotal() << endl;
    return 0;
 }
