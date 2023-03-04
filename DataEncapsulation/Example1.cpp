@@ -1,25 +1,23 @@
 #include <iostream>
 using namespace std;
 
-class Adder {
+class Adder{
+
    public:
 
-      Adder(int i = 0) {
+      Adder(int i = 0){
          total = i;
       }
-      
-      // interface to outside world
-      void addNum(int number) {
+
+      void addNum(int number){
          total += number;
       }
       
-      // interface to outside world
-      int getTotal() {
+      int getTotal(){
          return total;
       };
    
    private:
-      // hidden data from outside world
       int total;
 };
 
