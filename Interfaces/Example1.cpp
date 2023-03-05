@@ -3,21 +3,22 @@ using namespace std;
  
 class Shape{
 
-   public:
+    public:
 
-    virtual int getArea() = 0;
+        virtual int getArea() = 0;
 
-    void setWidth(int w){
-        width = w;
-    }
+        void setWidth(int w){
+            width = w;
+        }
+    
+        void setHeight(int h){
+            height = h;
+        }
    
-      void setHeight(int h) {
-         height = h;
-      }
-   
-   protected:
-      int width;
-      int height;
+    protected:
+        int width;
+        int height;
+        
 };
  
 // Derived classes
