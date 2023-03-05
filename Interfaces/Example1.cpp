@@ -22,11 +22,11 @@ class Shape{
 };
 
 class Rectangle: public Shape{
-    
-   public:
-      int getArea() { 
-         return (width * height); 
-      }
+
+    public:
+        int getArea(){ 
+            return (width * height); 
+        }
 
 };
 
