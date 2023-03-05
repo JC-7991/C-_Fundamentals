@@ -34,9 +34,9 @@ class Triangle: public Shape{
 
     public:
         int getArea(){ 
-            return (width * height)/2; 
+            return (width * height) / 2; 
         }
-        
+
 };
  
 int main(void) {
