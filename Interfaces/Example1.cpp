@@ -30,11 +30,13 @@ class Rectangle: public Shape{
 
 };
 
-class Triangle: public Shape {
-   public:
-      int getArea() { 
-         return (width * height)/2; 
-      }
+class Triangle: public Shape{
+
+    public:
+        int getArea(){ 
+            return (width * height)/2; 
+        }
+        
 };
  
 int main(void) {
