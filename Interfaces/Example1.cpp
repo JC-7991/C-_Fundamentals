@@ -18,10 +18,9 @@ class Shape{
     protected:
         int width;
         int height;
-        
+
 };
- 
-// Derived classes
+
 class Rectangle: public Shape {
    public:
       int getArea() { 
