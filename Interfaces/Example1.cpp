@@ -39,9 +39,10 @@ class Triangle: public Shape{
 
 };
  
-int main(void) {
+int main(void){
+
    Rectangle Rect;
-   Triangle  Tri;
+   Triangle Tri;
  
    Rect.setWidth(5);
    Rect.setHeight(7);
