@@ -21,11 +21,13 @@ class Shape{
 
 };
 
-class Rectangle: public Shape {
+class Rectangle: public Shape{
+    
    public:
       int getArea() { 
          return (width * height); 
       }
+
 };
 
 class Triangle: public Shape {
