@@ -6,10 +6,10 @@ class Shape{
    public:
 
     virtual int getArea() = 0;
-    
-      void setWidth(int w) {
-         width = w;
-      }
+
+    void setWidth(int w){
+        width = w;
+    }
    
       void setHeight(int h) {
          height = h;
