@@ -46,8 +46,7 @@ int main(void){
  
    Rect.setWidth(5);
    Rect.setHeight(7);
-   
-   // Print the area of the object.
+
    cout << "Total Rectangle area: " << Rect.getArea() << endl;
 
    Tri.setWidth(5);
