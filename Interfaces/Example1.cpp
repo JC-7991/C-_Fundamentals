@@ -55,4 +55,5 @@ int main(void){
    cout << "Total Triangle area: " << Tri.getArea() << endl; 
 
    return 0;
+   
 }
