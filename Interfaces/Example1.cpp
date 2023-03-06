@@ -52,7 +52,6 @@ int main(void){
    Tri.setWidth(5);
    Tri.setHeight(7);
    
-   // Print the area of the object.
    cout << "Total Triangle area: " << Tri.getArea() << endl; 
 
    return 0;
