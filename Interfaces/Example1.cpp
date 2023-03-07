@@ -52,7 +52,7 @@ int main(void){
    Tri.setWidth(5);
    Tri.setHeight(7);
    
-   cout << "Total Triangle area: " << Tri.getArea() << endl; 
+   cout << "Triangle area: " << Tri.getArea() << endl; 
 
    return 0;
 
