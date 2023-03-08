@@ -13,7 +13,6 @@ int main(){
    cout << "Enter your name: "; 
    cin.getline(data, 100);
 
-   // write inputted data into the file.
    outfile << data << endl;
 
    cout << "Enter your age: "; 
