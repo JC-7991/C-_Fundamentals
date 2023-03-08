@@ -18,11 +18,8 @@ int main(){
    cout << "Enter your age: "; 
    cin >> data;
    cin.ignore();
-   
-   // again write inputted data into the file.
-   outfile << data << endl;
 
-   // close the opened file.
+   outfile << data << endl;
    outfile.close();
 
    // open a file in read mode.
