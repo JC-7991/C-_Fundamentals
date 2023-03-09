@@ -30,11 +30,9 @@ int main(){
 
    cout << data << endl;
    
-   // again read the data from the file and display it.
    infile >> data; 
    cout << data << endl; 
 
-   // close the opened file.
    infile.close();
 
    return 0;
