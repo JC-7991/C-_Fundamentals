@@ -21,8 +21,7 @@ int main(){
 
    outfile << data << endl;
    outfile.close();
-
-   // open a file in read mode.
+   
    ifstream infile; 
    infile.open("afile.dat"); 
  
@@ -40,5 +39,5 @@ int main(){
    infile.close();
 
    return 0;
-   
+
 }
