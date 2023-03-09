@@ -21,14 +21,13 @@ int main(){
 
    outfile << data << endl;
    outfile.close();
-   
+
    ifstream infile; 
    infile.open("afile.dat"); 
  
    cout << "Reading from the file" << endl; 
    infile >> data; 
 
-   // write the data at the screen.
    cout << data << endl;
    
    // again read the data from the file and display it.
