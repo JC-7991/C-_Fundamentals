@@ -12,17 +12,19 @@ double division(int a, int b){
 }
 
 int main(){
-   
+
    int x = 50;
    int y = 0;
    double z = 0;
  
-   try {
+   try{
       z = division(x, y);
       cout << z << endl;
-   } catch (const char* msg) {
+   }
+   catch(const char* msg){
      cerr << msg << endl;
    }
 
    return 0;
+   
 }
