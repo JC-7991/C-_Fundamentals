@@ -11,7 +11,8 @@ double division(int a, int b){
 
 }
 
-int main () {
+int main(){
+   
    int x = 50;
    int y = 0;
    double z = 0;
